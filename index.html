@@ -24,6 +24,11 @@
       padding: 20px;
     }
 
+    .logo {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+
     h1 {
       font-size: 3em;
       margin-bottom: 10px;
@@ -56,19 +61,34 @@
       bottom: 15px;
       font-size: 0.9em;
       color: #aaa;
+      text-align: center;
+      width: 100%;
+    }
+
+    footer a {
+      color: #aaa;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
+    <!-- Logo goes here -->
+    <img src="assets/logo.png" alt="S.B. Enterprise Logo" class="logo">
+
     <div class="loader"></div>
     <h1>We're Building Something Great</h1>
     <p>Our site is currently under construction.<br>We'll be here soon with our new awesome site.</p>
   </div>
 
   <footer>
-    &copy; 2025 Your Company Name. All rights reserved.
+    &copy; 2025 S.B. Enterprise. All rights reserved.<br>
+    Contact us at <a href="mailto:sales@sbe.in.net">sales@sbe.in.net</a>
   </footer>
 
 </body>
